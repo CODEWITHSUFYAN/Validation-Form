@@ -118,3 +118,34 @@ button:hover {
   animation: slideFadeIn 1s ease forwards;
 }
 
+@media (max-width: 480px) {
+  .form-container,
+  .success-box {
+    width: 90%;
+    padding: 25px;
+    border-radius: 15px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  button {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .success-box {
+    padding: 20px;
+  }
+}
